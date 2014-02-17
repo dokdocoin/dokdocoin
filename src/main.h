@@ -63,8 +63,8 @@ static const int COINBASE_MATURITY = 100;
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Maximum number of script-checking threads allowed */
 static const int MAX_SCRIPTCHECK_THREADS = 16;
-static const int DIFF_FILTER_THRESHOLD_TESTNET = 8192;
-static const int DIFF_FILTER_THRESHOLD         = 8192;
+static const int DIFF_FILTER_THRESHOLD_TESTNET = 1024;
+static const int DIFF_FILTER_THRESHOLD         = 4096;
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
 #else
