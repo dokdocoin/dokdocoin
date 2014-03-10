@@ -31,11 +31,14 @@ the Dokdocoin client sofware, see http://www.dokdocoin.org.
 더 많은 정보를 얻으려면 독도코인 홈페이지 http://www.dokdocoin.org 를 방문하세요  
 실행 가능한 독도코인 클라이언트 소프트웨어를 다운로드 받을 수 있습니다.
 
-License 라이센스
+License 라이선스
 -------
 
 Dokdocoin is released under the terms of the MIT license.  
 See http://opensource.org/licenses/MIT for more information.  
+
+독도코인은 MIT 라이선스를 준수합니다.
+자세한 내용은 http://opensource.org/licenses/MIT 를 참조하십시오.  
 
 
 Copyright (c) 2009-2013 Bitcoin Developers  
