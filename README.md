@@ -18,7 +18,7 @@ It is a modified version of Litecoin using scrypt as a proof-of-work algorithm.
  - 60 seconds block targets (매 60초 마다 블럭 생성)
  - 50 000 000 total coins (총 발행량 5천만 코인)
  - 100 coins per generated block (블럭 보상 100코인)
- - Subsidy halves in 250k blocks (매 25만 도달시 블럭 보상 반감)
+ - Subsidy halves in 250k blocks (매 25만 블럭 도달시 보상 반감)
  - KGW difficulty regulation (KGW 난이도 보정)
 
 ### Ports 포트
