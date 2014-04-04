@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko_KR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko_KR" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -518,7 +516,7 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;설정/translation>
+        <translation>&amp;설정</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2194,7 +2192,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>백업 실패/translation>
+        <translation>백업 실패</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2204,7 +2202,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>백업 성공/translation>
+        <translation>백업 성공</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2492,7 +2490,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>블럭 정보 로드 실패/translation>
+        <translation>블럭 정보 로드 실패</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2507,7 +2505,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Failed to write block index</source>
-        <translation>블럭 인덱스 기록 실패/translation>
+        <translation>블럭 인덱스 기록 실패</translation>
     </message>
     <message>
         <location line="+1"/>
