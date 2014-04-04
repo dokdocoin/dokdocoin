@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile dokdocoin-0.8.6.2-win32-setup.exe
+OutFile dokdocoin-0.8.6.3-win32-setup.exe
 InstallDir $PROGRAMFILES\Dokdocoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.2
+VIProductVersion 0.8.6.3
 VIAddVersionKey ProductName Dokdocoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
