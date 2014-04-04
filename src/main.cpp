@@ -1281,12 +1281,12 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 		PastDifficultyAveragePrev = PastDifficultyAverage;
  	
 		if (LatestBlockTime < BlockReading->GetBlockTime()) {
-			if (BlockReading->nHeight >= 86863) LatestBlockTime = BlockReading->GetBlockTime();
+			if (BlockReading->nHeight >= 77308) LatestBlockTime = BlockReading->GetBlockTime();
 		}
 		PastRateActualSeconds			= LatestBlockTime - BlockReading->GetBlockTime();
 		PastRateTargetSeconds			= TargetBlocksSpacingSeconds * PastBlocksMass;
 		PastRateAdjustmentRatio			= double(1);
-		if (BlockReading->nHeight >= 86863) {
+		if (BlockReading->nHeight >= 77308) {
 			if (PastRateActualSeconds < 1) { PastRateActualSeconds = 1; }
 		} else {
 			if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
@@ -1350,11 +1350,11 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 	int DiffMode = 1;
 	if (fTestNet) {
 		if (pindexLast->nHeight+1 >= 2237) { DiffMode = 2; }
-		if (pindexLast->nHeight+1 >= 86864) { DiffMode = 3; }
+		if (pindexLast->nHeight+1 >= 77309) { DiffMode = 3; }
 	}
 	else {
 		if (pindexLast->nHeight+1 >= 16384) { DiffMode = 2; }
-		if (pindexLast->nHeight+1 >= 86864) { DiffMode = 3; }
+		if (pindexLast->nHeight+1 >= 77309) { DiffMode = 3; }
 	}
 	
 	if		(DiffMode == 1) { return GetNextWorkRequired_V1(pindexLast, pblock); }
