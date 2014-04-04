@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.1.2
+!define VERSION 0.8.6.3
 !define COMPANY "Dokdocoin project"
 !define URL http://www.dokdocoin.org/
 
