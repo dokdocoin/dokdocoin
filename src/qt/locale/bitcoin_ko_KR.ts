@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko_KR" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ko_KR">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -88,7 +90,7 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>&amp;메시지 첨부</translation>
+        <translation>메시지 &amp;첨부</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -128,7 +130,7 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>&amp;라벨 복사</translation>
+        <translation>라벨 &amp;복사</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -138,7 +140,7 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>&amp;코인 전송</translation>
+        <translation>코인 &amp;전송</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -501,12 +503,12 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+7"/>
         <source>Sign messages with your Dokdocoin addresses to prove you own them</source>
-        <translation>당신의 소유권을 증명하기 위해 독도코인 주소에 메시지를 서명합니다.</translation>
+        <translation>당신의 소유권을 증명하기 위해 독도코인 주소에 메시지를 서명합니다</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Dokdocoin addresses</source>
-        <translation>지정된 독도코인 주소로 서명되었는지 확인하기 위해 메시지를 검증합니다.</translation>
+        <translation>지정된 독도코인 주소로 서명되었는지 확인하기 위해 메시지를 검증합니다</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -555,12 +557,12 @@ MIT/X11 소프트웨어 라이선스에 따라, 첨부파일의 COPYING 또는 h
     <message>
         <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>%1 / %2 블럭 동기화 중</translation>
+        <translation>%1 / %2 블럭 동기화 중.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 블럭이 동기화 되었습니다</translation>
+        <translation>%1 블럭이 동기화 되었습니다.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
@@ -867,7 +869,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Connect to the Dokdocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS 프록시를 통해 독도코인 네트워크에 연결합니다 예) Tor 를 통해 연결할 경우</translation>
+        <translation>SOCKS 프록시를 통해 독도코인 네트워크에 연결합니다 예) Tor 를 통해 연결할 경우.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -912,7 +914,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>최소화시 트레이 아이콘으로 표시</translation>
+        <translation>최소화시 트레이 아이콘으로 표시.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1115,7 +1117,7 @@ Address: %4
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;다른 이름으로 저장</translation>
+        <translation>&amp;다른 이름으로 저장...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
@@ -1837,7 +1839,7 @@ Address: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, 아직 송출되지 않았습니다.</translation>
+        <translation>, 아직 송출되지 않았습니다</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1987,7 +1989,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>잔액 변동 금액</translation>
+        <translation>변동 금액.</translation>
     </message>
 </context>
 <context>
@@ -2350,12 +2352,12 @@ rpcpassword=%s
     <message>
         <location line="+17"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>IPv6 RPC port %u 설정 중 문제가 발생하였습니다. IPv4: %s로 회귀합니다.</translation>
+        <translation>IPv6 RPC port %u 설정 중 문제가 발생하였습니다. IPv4: %s로 회귀합니다</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>부여된 주소로 바인딩합니다. IPv6을 위해 [host]:port를 표기합니다.</translation>
+        <translation>부여된 주소로 바인딩합니다. IPv6을 위해 [host]:port를 표기합니다</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2370,7 +2372,7 @@ rpcpassword=%s
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>오류: 이 거래를 위해서는 %s의 거래 수수료가 필요합니다.</translation>
+        <translation>오류: 이 거래를 위해서는 %s의 거래 수수료가 필요합니다!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2640,7 +2642,7 @@ rpcpassword=%s
     <message>
         <location line="+2"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>추가 디버그 정보 출력. 모든 -debug* 옵션을 포함함.</translation>
+        <translation>추가 디버그 정보 출력. 모든 -debug* 옵션을 포함함</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,7 +2657,7 @@ rpcpassword=%s
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL 옵션: </translation>
+        <translation>SSL 옵션: (라이트코인 위키의 SSL 설정법을 참조하세요)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2665,12 +2667,12 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>debug.log 파일을 대신하여 콘솔에 디버그 정보를 보냅니다.</translation>
+        <translation>debug.log 파일을 대신하여 콘솔에 디버그 정보를 보냅니다</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>디버거에 디버그 정보를 보냅니다.</translation>
+        <translation>디버거에 디버그 정보를 보냅니다</translation>
     </message>
     <message>
         <location line="+5"/>
