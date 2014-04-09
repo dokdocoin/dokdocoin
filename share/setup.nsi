@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.3
+!define VERSION 1.0.0.0
 !define COMPANY "Dokdocoin project"
 !define URL http://www.dokdocoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile dokdocoin-0.8.6.3-win32-setup.exe
+OutFile dokdocoin-1.0.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Dokdocoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.3
+VIProductVersion 1.0.0.0
 VIAddVersionKey ProductName Dokdocoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
