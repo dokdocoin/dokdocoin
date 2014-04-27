@@ -41,8 +41,8 @@ See http://opensource.org/licenses/MIT for more information.
 자세한 내용은 http://opensource.org/licenses/MIT 를 참조하십시오.  
 
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2009-2014 Bitcoin Developers  
+Copyright (c) 2011-2014 Litecoin Developers  
 Copyright (c) 2013-2079 Dr. Kimoto Chan  
 Copyright (c) 2014-2014 Dokdocoin Developers  
 
