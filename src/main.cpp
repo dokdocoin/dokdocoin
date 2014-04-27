@@ -402,6 +402,10 @@ bool CTransaction::IsStandard(string& strReason) const
             strReason = "scriptsig-not-pushonly";
             return false;
         }
+        if (!txin.scriptSig.HasCanonicalPushes()) {
+            strReason = "non-canonical-push";
+            return false;
+        }
     }
     BOOST_FOREACH(const CTxOut& txout, vout) {
         if (!::IsStandard(txout.scriptPubKey)) {
@@ -787,10 +791,10 @@ bool CTxMemPool::accept(CValidationState &state, CTransaction &tx, bool fCheckIn
             dFreeCount += nSize;
         }
 
-		if (fRejectInsaneFee && nFees > CTransaction::nMinRelayTxFee * 10000)
+		if (fRejectInsaneFee && nFees > CTransaction::nMinRelayTxFee * 1000)
             return error("CTxMemPool::accept() : insane fees %s, %"PRI64d" > %"PRI64d,
                          hash.ToString().c_str(),
-                         nFees, CTransaction::nMinRelayTxFee * 10000);
+                         nFees, CTransaction::nMinRelayTxFee * 1000);
 
         // Check against previous transactions
         // This is done last to help prevent CPU exhaustion denial-of-service attacks.
